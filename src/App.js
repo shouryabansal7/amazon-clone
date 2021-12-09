@@ -8,6 +8,7 @@ import Login from "./Login";
 import { auth } from "./firebse";
 import { onAuthStateChanged } from "firebase/auth";
 import { useStateValue } from "./StateProvider";
+import Footer from "./Footer";
 
 function App() {
   const [state, dispatch] = useStateValue();
@@ -43,6 +44,7 @@ function App() {
               <React.Fragment>
                 <Header />
                 <Checkout />
+                <Footer />
               </React.Fragment>
             }
           />
@@ -60,6 +62,7 @@ function App() {
               <React.Fragment>
                 <Header />
                 <Home />
+                <Footer />
               </React.Fragment>
             }
           />
