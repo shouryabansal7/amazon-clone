@@ -10,13 +10,14 @@
   min-width: 100px;
   background-color: white;
   z-index: 1;
-  min-height: 400px;
+  min-height: 500px;
 }
 
 .product > img {
-  max-width: 200px;
+  max-width: 170px;
   width: 100%;
   object-fit: contain;
+  margin-top: 15px;
   margin-bottom: 15px;
 }
 
@@ -26,7 +27,8 @@
 
 .product_info {
   height: 100px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 .product > button {

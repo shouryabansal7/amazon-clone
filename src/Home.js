@@ -1,5 +1,7 @@
 import { Menu } from "@mui/icons-material";
 import React from "react";
+import ImageCarousel from "./ImageCarousel";
+
 import "./Home.css";
 import Product from "./Product";
 
@@ -20,10 +22,7 @@ function Home(props) {
             <li>Kindle Ebooks</li>
           </ul>
         </div>
-        <img
-          className="home_image"
-          src="https://m.media-amazon.com/images/I/61nqIIcfQyL._SX1500_.jpg"
-        />
+        <ImageCarousel />
         <div className="home_row">
           <Product
             title="And Then There Were None: The World’s Favourite Agatha Christie Book: The World’s Favourite Agatha Christie Book"
